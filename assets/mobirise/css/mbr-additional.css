@@ -44,10 +44,10 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 1.92rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -78,9 +78,9 @@ body {
     line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -590,8 +590,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1397,12 +1397,12 @@ body {
 }
 .cid-rz2lMZE2Z6 .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rz2lMZE2Z6 .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #c1c1c1;
 }
 .cid-rz2lMZE2Z6 a {
   font-style: normal;
@@ -1493,7 +1493,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rz2lMZE2Z6 .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #c1c1c1;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1564,7 +1564,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-rz2lMZE2Z6 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1795,8 +1795,9 @@ body {
   color: #128421 !important;
 }
 .cid-rz2m1hI48t {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 120px;
+  padding-bottom: 105px;
+  background-image: url("../../../assets/images/brasil-beach-imagem-300x218.jpg");
 }
 @media (min-width: 992px) {
   .cid-rz2m1hI48t .mbr-figure {
@@ -1808,8 +1809,23 @@ body {
     padding-top: 3rem;
   }
 }
+.cid-rz2m1hI48t .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-rz2m1hI48t .media-container-row .mbr-figure {
+    padding-left: 0;
+    padding-right: 4rem;
+  }
+}
 .cid-rz2m1hI48t .mbr-section-title {
   text-align: center;
+}
+.cid-rz2m1hI48t .mbr-text,
+.cid-rz2m1hI48t .mbr-section-btn {
+  color: #efefef;
+  text-align: left;
 }
 .cid-rz2m2pDN9t {
   padding-top: 90px;
@@ -1843,12 +1859,12 @@ body {
 }
 .cid-rnXGNHryQR .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rnXGNHryQR .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #c1c1c1;
 }
 .cid-rnXGNHryQR a {
   font-style: normal;
@@ -1939,7 +1955,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rnXGNHryQR .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #c1c1c1;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2010,7 +2026,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-rnXGNHryQR button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2667,12 +2683,12 @@ body {
 }
 .cid-rnXGNHryQR .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rnXGNHryQR .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #c1c1c1;
 }
 .cid-rnXGNHryQR a {
   font-style: normal;
@@ -2763,7 +2779,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rnXGNHryQR .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #c1c1c1;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2834,7 +2850,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-rnXGNHryQR button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -3491,12 +3507,12 @@ body {
 }
 .cid-rnXGNHryQR .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rnXGNHryQR .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #c1c1c1;
 }
 .cid-rnXGNHryQR a {
   font-style: normal;
@@ -3587,7 +3603,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rnXGNHryQR .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #c1c1c1;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -3658,7 +3674,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-rnXGNHryQR button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -4315,12 +4331,12 @@ body {
 }
 .cid-rnXGNHryQR .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rnXGNHryQR .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #c1c1c1;
 }
 .cid-rnXGNHryQR a {
   font-style: normal;
@@ -4411,7 +4427,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rnXGNHryQR .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #c1c1c1;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -4482,7 +4498,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-rnXGNHryQR button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -5139,12 +5155,12 @@ body {
 }
 .cid-rnXGNHryQR .navbar {
   padding: .5rem 0;
-  background: #ffffff;
+  background: #c1c1c1;
   transition: none;
   min-height: 77px;
 }
 .cid-rnXGNHryQR .navbar-dropdown.bg-color.transparent.opened {
-  background: #ffffff;
+  background: #c1c1c1;
 }
 .cid-rnXGNHryQR a {
   font-style: normal;
@@ -5235,7 +5251,7 @@ body {
   padding-bottom: 0;
 }
 .cid-rnXGNHryQR .dropdown .dropdown-menu {
-  background: #ffffff;
+  background: #c1c1c1;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -5306,7 +5322,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #ffffff;
+  background-color: #cccccc;
 }
 .cid-rnXGNHryQR button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
